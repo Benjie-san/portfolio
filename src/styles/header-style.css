@@ -1,0 +1,35 @@
+#header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 7%;
+    position: fixed;
+    width: 98vw;
+    background-color: #081022;
+}
+
+#menu-container{
+    display: flex;
+    align-items: center;
+    width:auto;
+    gap: 0.2rem;
+}
+.menu-items{
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-items:hover, .menu-items:focus{
+    color: #E67B0C;
+}
+
+
+#resume{
+    background-color: transparent;
+    border: 0.5px solid #E67B0C;
+    border-radius: 0.313rem;
+    color: #E67B0C;
+    padding: 0.625rem;
+}

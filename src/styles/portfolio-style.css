@@ -1,0 +1,47 @@
+#container{
+    background-color: #081022;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scroll-behavior: smooth !important;
+}
+
+#main{
+    display:flex;
+    flex-direction: flex-start;
+}
+
+#hidden-div{
+    width: 50%;
+    height: 100vh;
+}
+
+#main-content{
+    width: 50%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+}
+
+#side-content{
+    flex-direction: column;
+}
+
+
+/* HIDING THE SCROLLBAR-Y*/
+#container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
